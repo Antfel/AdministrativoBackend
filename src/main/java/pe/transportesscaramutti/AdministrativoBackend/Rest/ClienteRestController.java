@@ -115,6 +115,7 @@ public class ClienteRestController {
         clienteService.deleteAllClientes();
         return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
     }
+    
 
     
 }
